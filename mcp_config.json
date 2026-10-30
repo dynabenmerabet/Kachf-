@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "algerian-job-market-db": {
+      "command": "python",
+      "args": ["-m", "src.mcp.market_server"],
+      "env": {
+        "REGION": "DZ",
+        "DATASET": "higher_education_careers_2026"
+      }
+    }
+  }
+}
